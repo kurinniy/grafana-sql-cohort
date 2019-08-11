@@ -1,6 +1,6 @@
 # Grafana MySQL cohort analysis demo
 
-This is demo docker image allows you to play around with cohort analysis in Grafana.
+This docker image allows you to play around with cohort analysis in Grafana using MySQL.
 
 It shows user retention of imaginary website split by months. 
 
