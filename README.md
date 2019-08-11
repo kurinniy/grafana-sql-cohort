@@ -4,7 +4,7 @@ This docker image allows you to play around with cohort analysis in Grafana usin
 
 It shows user retention of imaginary website split by months. 
 
-[[https://github.com/kurinniy/grafana-sql-cohort/blob/master/img/users-retention.png|Users retention]]
+<img align="center" width="200" height="183" src="https://github.com/kurinniy/grafana-sql-cohort/blob/master/img/users-retention.png" />
 
 And amount of money spent split by month users register.
 
