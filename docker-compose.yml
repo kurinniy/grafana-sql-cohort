@@ -1,0 +1,22 @@
+version: "3"
+services:
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./grafana-storage:/var/lib/grafana
+    environment:
+      GF_SECURITY_ADMIN_PASSWORD: secret
+    links:
+      - mysql-cohort
+
+  mysql-cohort:
+    image: mysql:8
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./mysql:/var/lib/mysql
+      - ./initdb:/docker-entrypoint-initdb.d
+    environment:
+      MYSQL_ROOT_PASSWORD: secret
