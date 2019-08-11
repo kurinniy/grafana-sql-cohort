@@ -2,13 +2,13 @@
 
 This docker image allows you to play around with cohort analysis in Grafana using MySQL.
 
-It shows user retention of imaginary website split by months. 
+It shows user retention of imaginary website split by months: 
 
 <img align="center" alt="Users retention graph" width="680" height="239" src="https://github.com/kurinniy/grafana-sql-cohort/blob/master/img/users-retention.png" />
 
-And amount of money spent split by month users register.
+And amount of money spent split by month users register:
 
-[[https://github.com/kurinniy/grafana-sql-cohort/blob/master/img/users-turnover.png|Users turnover]]
+<img align="center" alt="Users turnover graph" width="679" height="238" src="https://github.com/kurinniy/grafana-sql-cohort/blob/master/img/users-turnover.png" />
 
 ## Installation
 
