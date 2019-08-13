@@ -17,6 +17,8 @@ git clone https://github.com/kurinniy/grafana-sql-cohort.git
 
 cd grafana-sql-cohort
 
+chmod -R 777 grafana-storage
+
 docker-compose up --build
 ```
 
